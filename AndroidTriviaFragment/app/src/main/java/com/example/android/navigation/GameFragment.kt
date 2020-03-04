@@ -86,6 +86,7 @@ class GameFragment : Fragment() {
             if (-1 != checkedId) {
                 var answerIndex = 0
                 when (checkedId) {
+                    // Почему три, когда кнопок четыре?
                     R.id.secondAnswerRadioButton -> answerIndex = 1
                     R.id.thirdAnswerRadioButton -> answerIndex = 2
                     R.id.fourthAnswerRadioButton -> answerIndex = 3
